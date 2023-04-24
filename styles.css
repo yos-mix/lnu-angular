@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.name{
+    margin: 30px;
+}
+.name p{
+    font-size: 20px;
+    letter-spacing: .1em;
+    border: 1px solid grey;
+    width: fit-content;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    border-radius: 10px;
+    color: grey;
+}
+.name p span{
+    color: white;
+    background-color: black;
+    padding: 3px 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* Container top-card */
+.container{
+ padding: 20px 40px;   
+}
+.top-card{
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.left-card{
+    float: left;
+    width: 50%;
+}
+.left-card img{
+    border: 3px solid black;
+    border-radius: 50%;
+}
+.right-card{
+    float: right;
+    width: 50%;
+    margin-top: 90px;
+}
+.right-card h3{
+    color: grey;
+    font-size: 30px;
+    letter-spacing: .05em;
+}
+
+hr{
+    color: black;
+    border: .5px solid black;
+}
+
+/* bottom-card */
+.bottom-card{
+    /* border: 1px solid black; */
+    margin-top: 50px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    font: 15px;
+}
+
+.left-bottom-card{
+    float: left;
+    width: 45%;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+.right-bottom-card{
+    float: right;
+    width: 45%;
+    text-align: right;
+}
+.right-bottom-card ul li{
+    list-style: none;
+    line-height: 25px;
+}
